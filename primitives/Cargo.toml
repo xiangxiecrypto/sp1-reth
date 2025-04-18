@@ -19,7 +19,7 @@ rlp = "0.5.2"
 thiserror = "1.0"
 serde = { version = "1.0.204", default-features = false, features = ["derive"] }
 
-reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "john/update-for-v1", default-features = false }
+reth-primitives = { git = "https://github.com/xiangxiecrypto/reth-new", branch = "john/update-for-v1", default-features = false }
 revm = { git = "https://github.com/xiangxiecrypto/revm-new", branch = "john/update-for-v1", features = [
     "serde",
 ], default-features = false }

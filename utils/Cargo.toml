@@ -23,7 +23,7 @@ alloy-primitives = { version = "0.7", default-features = false, features = [
     "std",
     "tiny-keccak",
 ] }
-reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "john/update-for-v1", default-features = false }
+reth-primitives = { git = "https://github.com/xiangxiecrypto/reth-new", branch = "john/update-for-v1", default-features = false }
 revm = { git = "https://github.com/xiangxiecrypto/revm-new", branch = "john/update-for-v1", features = [
     "std",
 ], default-features = false }

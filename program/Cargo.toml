@@ -9,7 +9,7 @@ alloy-rlp = { version = "0.3", default-features = false }
 sp1-zkvm = { git = "https://github.com/succinctlabs/sp1", branch = "dev" }
 sp1-reth-primitives = { path = "../primitives" }
 
-reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "john/update-for-v1", default-features = false}
+reth-primitives = { git = "https://github.com/xiangxiecrypto/reth-new", branch = "john/update-for-v1", default-features = false}
 revm = { git = "https://github.com/xiangxiecrypto/revm-new", branch = "john/update-for-v1", features = [
     "serde",
 ], default-features = false }
